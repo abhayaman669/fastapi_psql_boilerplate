@@ -1,2 +1,4 @@
+alembic==1.4.3
 fastapi==0.63.0
+psycopg2==2.8.6
 uvicorn==0.13.3

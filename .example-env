@@ -1,3 +1,4 @@
 export HOST=localhost
 export PORT=3000
 export RELOAD=true
+export PSQL_DB_URL=postgresql://username:password@host:port/database_name
