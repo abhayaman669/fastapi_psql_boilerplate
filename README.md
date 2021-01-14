@@ -47,3 +47,10 @@ class User(Base):
 ```
 >>> PYTHONPATH=. alembic upgrade head
 ```
+
+## Running through docker
+
+```
+>>> sudo docker image build .
+>>> sudo docker run -d -p 8080:80 <image>
+```
