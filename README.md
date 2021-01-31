@@ -1,5 +1,7 @@
 # FASTAPI + PSQL API Boilerplate
 
+[FastAPI Docs](https://fastapi.tiangolo.com/)  
+
 ## Set up for local
 
 ```
