@@ -48,6 +48,15 @@ class User(Base):
 >>> PYTHONPATH=. alembic upgrade head
 ```
 
+## Running test
+
+```
+>>> pytest tests/
+```
+
+[Pytest docs](https://docs.pytest.org/en/stable/)  
+[Fastapi testing docs](https://fastapi.tiangolo.com/tutorial/testing/)  
+
 ## Running through docker
 
 ```
