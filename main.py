@@ -12,7 +12,7 @@ from app.routers import test_route
 app = FastAPI()
 
 # Adding routes
-app.include_router(test_route.router, prefix="")
+app.include_router(test_route.router, prefix="/test")
 
 # Running app using uvicorn
 if __name__ == '__main__':

@@ -6,7 +6,7 @@ from main import app
 client = TestClient(app)
 
 def test_read_main():
-    res = client.get("/")
+    res = client.get("/test")
     data = res.json()
     assert res.status_code == 200
     assert data == {'status': 'Success.', 'message': 'Hello World!'}
