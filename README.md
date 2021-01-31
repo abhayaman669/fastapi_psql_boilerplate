@@ -59,6 +59,14 @@ class User(Base):
 [Pytest docs](https://docs.pytest.org/en/stable/)  
 [Fastapi testing docs](https://fastapi.tiangolo.com/tutorial/testing/)  
 
+## Running coverage
+
+```
+>>> coverage run -m pytest tests/
+>>> coverage report
+>>> coverage html
+```
+
 ## Running through docker
 
 ```
