@@ -50,6 +50,14 @@ class User(Base):
 >>> PYTHONPATH=. alembic upgrade head
 ```
 
+## Running linter
+
+```
+>>> pylint `pwd`
+```
+
+> NOTE: The above cmd is tested on ubuntu.
+
 ## Running test
 
 ```
