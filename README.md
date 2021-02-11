@@ -79,5 +79,5 @@ class User(Base):
 
 ```
 >>> sudo docker image build .
->>> sudo docker run -d -p 8080:80 <image>
+>>> sudo docker run -d --name myapp 8080:80 <image>
 ```
