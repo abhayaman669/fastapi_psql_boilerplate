@@ -81,3 +81,19 @@ class User(Base):
 >>> sudo docker image build .
 >>> sudo docker run -d --name myapp 8080:80 <image>
 ```
+
+## CI using Circleci
+
+We are using Circleci for CI.
+
+**Steps to setup**
+  
+- Go to [CircleCI](https://circleci.com/).
+- Connect you github account.
+- you can simply follow the steps there to set up your project there.
+- Update `.circleci/config.yml` as per your need.
+
+**Important links for CI**
+  
+- [What is CI?](https://www.cloudbees.com/continuous-delivery/continuous-integration)
+- [Circleci official docs](https://circleci.com/docs/2.0/getting-started/)
