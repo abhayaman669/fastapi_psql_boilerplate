@@ -2,7 +2,8 @@
   
 [![codecov](https://codecov.io/gh/abhayaman669/fastapi_psql_boilerplate/branch/main/graph/badge.svg)](https://codecov.io/gh/abhayaman669/fastapi_psql_boilerplate)
   
-[FastAPI Docs](https://fastapi.tiangolo.com/)  
+[FastAPI Docs](https://fastapi.tiangolo.com/)
+[Docs for this boilerplate](https://github.com/abhayaman669/fastapi_psql_boilerplate/tree/main/docs)
 
 ## Set up for local
 
