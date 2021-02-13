@@ -2,6 +2,7 @@ version: 2.1
 
 orbs:
   python: circleci/python@0.2.1
+  codecov: codecov/codecov@1.0.2
 
 jobs:
   build-and-test:
@@ -11,7 +12,13 @@ jobs:
       - run:
           command: |
             pip install -r requirements.txt
+            coverage run -m pytest tests/
+            coverage report
+            coverage xml
           name: Test
+      - codecov/upload:
+            file: ./coverage.xml
+            token: $CODECOV_TOKEN
 
 workflows:
   main:
