@@ -15,10 +15,10 @@ jobs:
             coverage run -m pytest tests/
             coverage report
             coverage xml
+          name: Test
       - codecov/upload:
             file: ./coverage.xml
             token: $CODECOV_TOKEN
-          name: Test
 
 workflows:
   main:
